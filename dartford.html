@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_16c10603975a4e8eb7657eec54e92750 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_16c10603975a4e8eb7657eec54e92750" ></div>
+        
+</body>
+<script>    
+    
+            var map_16c10603975a4e8eb7657eec54e92750 = L.map(
+                "map_16c10603975a4e8eb7657eec54e92750",
+                {
+                    center: [51.4443059, 0.21807],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b13faeb724b948debf74d92879c55fc2 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_16c10603975a4e8eb7657eec54e92750);
+        
+    
+            var circle_marker_174bbd3f89fb4be1b8c8abaf94aadb2c = L.circleMarker(
+                [51.369382, 0.213492],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_16c10603975a4e8eb7657eec54e92750);
+        
+    
+        var popup_f8ad86587bad427982baf47dadb455dc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8ccdca8deafc49e48a45b951dfeaa3da = $(`<div id="html_8ccdca8deafc49e48a45b951dfeaa3da" style="width: 100.0%; height: 100.0%;">Anthony Roper Primary School, The, DA4 0AA</div>`)[0];
+            popup_f8ad86587bad427982baf47dadb455dc.setContent(html_8ccdca8deafc49e48a45b951dfeaa3da);
+        
+
+        circle_marker_174bbd3f89fb4be1b8c8abaf94aadb2c.bindPopup(popup_f8ad86587bad427982baf47dadb455dc)
+        ;
+
+        
+    
+    
+            var circle_marker_88975905f02a4b0eb2d616b8c34c1ece = L.circleMarker(
+                [51.426347, 0.289653],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_16c10603975a4e8eb7657eec54e92750);
+        
+    
+        var popup_8cbd9eea37f547dcbaae45628667bab4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8e740a7b99b44548849b8a78603a9ac9 = $(`<div id="html_8e740a7b99b44548849b8a78603a9ac9" style="width: 100.0%; height: 100.0%;">Bean Primary School, DA2 8AL</div>`)[0];
+            popup_8cbd9eea37f547dcbaae45628667bab4.setContent(html_8e740a7b99b44548849b8a78603a9ac9);
+        
+
+        circle_marker_88975905f02a4b0eb2d616b8c34c1ece.bindPopup(popup_8cbd9eea37f547dcbaae45628667bab4)
+        ;
+
+        
+    
+    
+            var circle_marker_dec5bbfd83354f95889eedfa1d92a9f7 = L.circleMarker(
+                [51.443261087059604, 0.245859],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_16c10603975a4e8eb7657eec54e92750);
+        
+    
+        var popup_ec7205e0fec84075919618843fd22937 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_67643bc7c31f41d19c6c2587dcebab92 = $(`<div id="html_67643bc7c31f41d19c6c2587dcebab92" style="width: 100.0%; height: 100.0%;">Brent Primary School, The, DA2 6BA</div>`)[0];
+            popup_ec7205e0fec84075919618843fd22937.setContent(html_67643bc7c31f41d19c6c2587dcebab92);
+        
+
+        circle_marker_dec5bbfd83354f95889eedfa1d92a9f7.bindPopup(popup_ec7205e0fec84075919618843fd22937)
+        ;
+
+        
+    
+    
+            var circle_marker_a3c24b1d5a964d4e9e10b1218abf6a8f = L.circleMarker(
+                [51.4630488542449, 0.23028799970209302],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_16c10603975a4e8eb7657eec54e92750);
+        
+    
+        var popup_b2fbcc0f20d74b8881bef0f20aa45531 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f847782cf56149e78d7f2976b9f2a769 = $(`<div id="html_f847782cf56149e78d7f2976b9f2a769" style="width: 100.0%; height: 100.0%;">Dartford Bridge Community Primary School, DA1 5GB</div>`)[0];
+            popup_b2fbcc0f20d74b8881bef0f20aa45531.setContent(html_f847782cf56149e78d7f2976b9f2a769);
+        
+
+        circle_marker_a3c24b1d5a964d4e9e10b1218abf6a8f.bindPopup(popup_b2fbcc0f20d74b8881bef0f20aa45531)
+        ;
+
+        
+    
+    
+            var circle_marker_de854866343b47e7971c7f57d7349f06 = L.circleMarker(
+                [51.441965, 0.22821],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_16c10603975a4e8eb7657eec54e92750);
+        
+    
+        var popup_e287b34e25a04c2ea01d2b4ce2363ca4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fb62c827853745ca80c0fe725f446958 = $(`<div id="html_fb62c827853745ca80c0fe725f446958" style="width: 100.0%; height: 100.0%;">Dartford Primary Academy, DA1 1SQ</div>`)[0];
+            popup_e287b34e25a04c2ea01d2b4ce2363ca4.setContent(html_fb62c827853745ca80c0fe725f446958);
+        
+
+        circle_marker_de854866343b47e7971c7f57d7349f06.bindPopup(popup_e287b34e25a04c2ea01d2b4ce2363ca4)
+        ;
+
+        
+    
+    
+            var circle_marker_28e8d6716316414b943442b5f2b7e599 = L.circleMarker(
+                [51.43468841813729, 0.246574709545714],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_16c10603975a4e8eb7657eec54e92750);
+        
+    
+        var popup_23b59787235e43ba8c6e99c24952e97b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6f8a661a22c643318d48a389ed8af3ec = $(`<div id="html_6f8a661a22c643318d48a389ed8af3ec" style="width: 100.0%; height: 100.0%;">Fleetdown Primary School, DA2 6JX</div>`)[0];
+            popup_23b59787235e43ba8c6e99c24952e97b.setContent(html_6f8a661a22c643318d48a389ed8af3ec);
+        
+
+        circle_marker_28e8d6716316414b943442b5f2b7e599.bindPopup(popup_23b59787235e43ba8c6e99c24952e97b)
+        ;
+
+        
+    
+    
+            var circle_marker_5cb15816a869489387ee74c992cc7d14 = L.circleMarker(
+                [51.443641072298405, 0.241171430793246],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_16c10603975a4e8eb7657eec54e92750);
+        
+    
+        var popup_00c5425351db4ca6a2d592490ec89554 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_47e9e8b49f0a4fa18619510514c176e9 = $(`<div id="html_47e9e8b49f0a4fa18619510514c176e9" style="width: 100.0%; height: 100.0%;">Gateway Primary Academy, The, DA2 6DW</div>`)[0];
+            popup_00c5425351db4ca6a2d592490ec89554.setContent(html_47e9e8b49f0a4fa18619510514c176e9);
+        
+
+        circle_marker_5cb15816a869489387ee74c992cc7d14.bindPopup(popup_00c5425351db4ca6a2d592490ec89554)
+        ;
+
+        
+    
+    
+            var circle_marker_d9206eff033e42b1953d702c65dc99a6 = L.circleMarker(
+                [51.4155927572363, 0.26403288771258],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_16c10603975a4e8eb7657eec54e92750);
+        
+    
+        var popup_7189b0de9c344376b1196c1a0cca58f2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f8b76ff2b29b4169ab68356e07ed60f5 = $(`<div id="html_f8b76ff2b29b4169ab68356e07ed60f5" style="width: 100.0%; height: 100.0%;">Greenlands Primary School, DA2 8DH</div>`)[0];
+            popup_7189b0de9c344376b1196c1a0cca58f2.setContent(html_f8b76ff2b29b4169ab68356e07ed60f5);
+        
+
+        circle_marker_d9206eff033e42b1953d702c65dc99a6.bindPopup(popup_7189b0de9c344376b1196c1a0cca58f2)
+        ;
+
+        
+    
+    
+            var circle_marker_d3c3c0d237ad4483b4dd152b8ffc0086 = L.circleMarker(
+                [51.452458920381204, 0.20632460875922895],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_16c10603975a4e8eb7657eec54e92750);
+        
+    
+        var popup_ecf71806769a443dbf44c1cab76980b1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4657ac0936434837b4f524cf0a3ead5a = $(`<div id="html_4657ac0936434837b4f524cf0a3ead5a" style="width: 100.0%; height: 100.0%;">Holy Trinity CEP School, Dartford, DA1 5AF</div>`)[0];
+            popup_ecf71806769a443dbf44c1cab76980b1.setContent(html_4657ac0936434837b4f524cf0a3ead5a);
+        
+
+        circle_marker_d3c3c0d237ad4483b4dd152b8ffc0086.bindPopup(popup_ecf71806769a443dbf44c1cab76980b1)
+        ;
+
+        
+    
+    
+            var circle_marker_0a30f2bfeb684fdea04c9c1d0bceca14 = L.circleMarker(
+                [51.394223412630396, 0.244016426235367],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_16c10603975a4e8eb7657eec54e92750);
+        
+    
+        var popup_815ff22abaa04527888261c939b29b95 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c732cfaf3ac341bf90ccedc65349a573 = $(`<div id="html_c732cfaf3ac341bf90ccedc65349a573" style="width: 100.0%; height: 100.0%;">Horton Kirby CEP School, DA4 9BN</div>`)[0];
+            popup_815ff22abaa04527888261c939b29b95.setContent(html_c732cfaf3ac341bf90ccedc65349a573);
+        
+
+        circle_marker_0a30f2bfeb684fdea04c9c1d0bceca14.bindPopup(popup_815ff22abaa04527888261c939b29b95)
+        ;
+
+        
+    
+    
+            var circle_marker_713bc44d537b40888c2fa8231c4b8ff5 = L.circleMarker(
+                [51.431275, 0.17394],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_16c10603975a4e8eb7657eec54e92750);
+        
+    
+        var popup_efbfeb48b9654079a39e968846bff9cb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_674a9866d5df45c5ac2a9c2697bdc53b = $(`<div id="html_674a9866d5df45c5ac2a9c2697bdc53b" style="width: 100.0%; height: 100.0%;">Maypole Primary School, DA2 7UZ</div>`)[0];
+            popup_efbfeb48b9654079a39e968846bff9cb.setContent(html_674a9866d5df45c5ac2a9c2697bdc53b);
+        
+
+        circle_marker_713bc44d537b40888c2fa8231c4b8ff5.bindPopup(popup_efbfeb48b9654079a39e968846bff9cb)
+        ;
+
+        
+    
+    
+            var circle_marker_95b556e89f054f26b27617e1f066ae45 = L.circleMarker(
+                [51.4338107227594, 0.21187156759365],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_16c10603975a4e8eb7657eec54e92750);
+        
+    
+        var popup_b18cd003c1e243cc8dcd7008416a0b69 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e4b15c2bc6da42b18d112b88b041cab8 = $(`<div id="html_e4b15c2bc6da42b18d112b88b041cab8" style="width: 100.0%; height: 100.0%;">Oakfield Primary Academy, DA1 2SW</div>`)[0];
+            popup_b18cd003c1e243cc8dcd7008416a0b69.setContent(html_e4b15c2bc6da42b18d112b88b041cab8);
+        
+
+        circle_marker_95b556e89f054f26b27617e1f066ae45.bindPopup(popup_b18cd003c1e243cc8dcd7008416a0b69)
+        ;
+
+        
+    
+    
+            var circle_marker_523ea729a9d44cc787347163c77c6de1 = L.circleMarker(
+                [51.4482698170436, 0.209101829879435],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_16c10603975a4e8eb7657eec54e92750);
+        
+    
+        var popup_922fcdf6656f44bea7d3457b0c304ab7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_02cc2ef0223c44a58e9781e0d03a2a7c = $(`<div id="html_02cc2ef0223c44a58e9781e0d03a2a7c" style="width: 100.0%; height: 100.0%;">Our Lady&#39;s Catholic Primary School, Dartford, DA1 2HZ</div>`)[0];
+            popup_922fcdf6656f44bea7d3457b0c304ab7.setContent(html_02cc2ef0223c44a58e9781e0d03a2a7c);
+        
+
+        circle_marker_523ea729a9d44cc787347163c77c6de1.bindPopup(popup_922fcdf6656f44bea7d3457b0c304ab7)
+        ;
+
+        
+    
+    
+            var circle_marker_f3849d90dc96496d9f5b1c18dd2920e3 = L.circleMarker(
+                [51.4506431368087, 0.232403564309474],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_16c10603975a4e8eb7657eec54e92750);
+        
+    
+        var popup_4a92b3b46bb84b4bb7fbfd7b9f42695b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_49985a748dd74de28acb3d211e20a150 = $(`<div id="html_49985a748dd74de28acb3d211e20a150" style="width: 100.0%; height: 100.0%;">St Anselm&#39;s Catholic Primary School, Dartford, DA1 5EA</div>`)[0];
+            popup_4a92b3b46bb84b4bb7fbfd7b9f42695b.setContent(html_49985a748dd74de28acb3d211e20a150);
+        
+
+        circle_marker_f3849d90dc96496d9f5b1c18dd2920e3.bindPopup(popup_4a92b3b46bb84b4bb7fbfd7b9f42695b)
+        ;
+
+        
+    
+    
+            var circle_marker_ba7a4c17a90048b7b59fd9acf9ac74b3 = L.circleMarker(
+                [51.4115788707485, 0.235144858341345],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_16c10603975a4e8eb7657eec54e92750);
+        
+    
+        var popup_5f5082a2b07b40a7a71ec799d606b1e7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_02197e2600014e6397965b9da0f0edba = $(`<div id="html_02197e2600014e6397965b9da0f0edba" style="width: 100.0%; height: 100.0%;">Sutton-at-Hone CEP School, DA4 9EX</div>`)[0];
+            popup_5f5082a2b07b40a7a71ec799d606b1e7.setContent(html_02197e2600014e6397965b9da0f0edba);
+        
+
+        circle_marker_ba7a4c17a90048b7b59fd9acf9ac74b3.bindPopup(popup_5f5082a2b07b40a7a71ec799d606b1e7)
+        ;
+
+        
+    
+    
+            var circle_marker_5fb024a56c0549ba8914e08e6945d66a = L.circleMarker(
+                [51.45281198163671, 0.22996169342618902],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_16c10603975a4e8eb7657eec54e92750);
+        
+    
+        var popup_3bc686dc393a4ddf8cf15f16230399b0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a314bcd91f1d426fb25aba5f65d24a69 = $(`<div id="html_a314bcd91f1d426fb25aba5f65d24a69" style="width: 100.0%; height: 100.0%;">Temple Hill Primary Academy, DA1 5ND</div>`)[0];
+            popup_3bc686dc393a4ddf8cf15f16230399b0.setContent(html_a314bcd91f1d426fb25aba5f65d24a69);
+        
+
+        circle_marker_5fb024a56c0549ba8914e08e6945d66a.bindPopup(popup_3bc686dc393a4ddf8cf15f16230399b0)
+        ;
+
+        
+    
+    
+            var circle_marker_2f3463d363ad4cf3bd8b99261d2d7139 = L.circleMarker(
+                [51.4456119089105, 0.18971785090569698],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_16c10603975a4e8eb7657eec54e92750);
+        
+    
+        var popup_c8e1a85221ab4c9286291f662f76abba = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f57bf444fe514c12a81b0826a9824538 = $(`<div id="html_f57bf444fe514c12a81b0826a9824538" style="width: 100.0%; height: 100.0%;">Wentworth Primary School, DA1 3NG</div>`)[0];
+            popup_c8e1a85221ab4c9286291f662f76abba.setContent(html_f57bf444fe514c12a81b0826a9824538);
+        
+
+        circle_marker_2f3463d363ad4cf3bd8b99261d2d7139.bindPopup(popup_c8e1a85221ab4c9286291f662f76abba)
+        ;
+
+        
+    
+    
+            var circle_marker_ffeda0db7aaf4fec9ae9872af8c48cb8 = L.circleMarker(
+                [51.4471301297812, 0.202282629890487],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_16c10603975a4e8eb7657eec54e92750);
+        
+    
+        var popup_662c0ac5b2234acfab6fec002112b4c1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_df1fab20d43b439ab790ddd74fbdb97a = $(`<div id="html_df1fab20d43b439ab790ddd74fbdb97a" style="width: 100.0%; height: 100.0%;">West Hill Primary Academy, DA1 3DZ</div>`)[0];
+            popup_662c0ac5b2234acfab6fec002112b4c1.setContent(html_df1fab20d43b439ab790ddd74fbdb97a);
+        
+
+        circle_marker_ffeda0db7aaf4fec9ae9872af8c48cb8.bindPopup(popup_662c0ac5b2234acfab6fec002112b4c1)
+        ;
+
+        
+    
+    
+            var circle_marker_b06db15a573b43ab9732a613448ffce9 = L.circleMarker(
+                [51.443231, 0.211256557912147],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_16c10603975a4e8eb7657eec54e92750);
+        
+    
+        var popup_43d82ee027b74a15b7e2f8ba124ff843 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c5bfd613fb2248e484cf93cb39bef25b = $(`<div id="html_c5bfd613fb2248e484cf93cb39bef25b" style="width: 100.0%; height: 100.0%;">Westgate Primary School, DA1 2LP</div>`)[0];
+            popup_43d82ee027b74a15b7e2f8ba124ff843.setContent(html_c5bfd613fb2248e484cf93cb39bef25b);
+        
+
+        circle_marker_b06db15a573b43ab9732a613448ffce9.bindPopup(popup_43d82ee027b74a15b7e2f8ba124ff843)
+        ;
+
+        
+    
+    
+            var circle_marker_badfb008f3ce42fcb8405e6396020c48 = L.circleMarker(
+                [51.4272818714866, 0.19800495397561396],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_16c10603975a4e8eb7657eec54e92750);
+        
+    
+        var popup_12f004be59f84f1b8e2d62bcf53d0ec8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9a7e3c70879248b6a9c4340a450e4236 = $(`<div id="html_9a7e3c70879248b6a9c4340a450e4236" style="width: 100.0%; height: 100.0%;">Wilmington Primary School, DA2 7DF</div>`)[0];
+            popup_12f004be59f84f1b8e2d62bcf53d0ec8.setContent(html_9a7e3c70879248b6a9c4340a450e4236);
+        
+
+        circle_marker_badfb008f3ce42fcb8405e6396020c48.bindPopup(popup_12f004be59f84f1b8e2d62bcf53d0ec8)
+        ;
+
+        
+    
+</script>
